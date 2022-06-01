@@ -1,0 +1,181 @@
+attributes:
+  - beginString: ^.*?(?==)
+    regularExpression: true
+characters:
+  - beginString: "'"
+    endString: "'"
+commands:
+  - beginString: abs
+  - beginString: abspath
+  - beginString: alltrue
+  - beginString: anytrue
+  - beginString: base64decode
+  - beginString: base64encode
+  - beginString: base64gzip
+  - beginString: base64sha256
+  - beginString: base64sha512
+  - beginString: basename
+  - beginString: bcrypt
+  - beginString: can
+  - beginString: ceil
+  - beginString: chomp
+  - beginString: chunklist
+  - beginString: cidrhost
+  - beginString: cidrnetmask
+  - beginString: cidrsubnet
+  - beginString: cidrsubnets
+  - beginString: coalesce
+  - beginString: coalescelist
+  - beginString: compact
+  - beginString: concat
+  - beginString: contains
+  - beginString: csvdecode
+  - beginString: defaults
+  - beginString: dirname
+  - beginString: distinct
+  - beginString: element
+  - beginString: file
+  - beginString: filebase64
+  - beginString: filebase64sha256
+  - beginString: filebase64sha512
+  - beginString: fileexists
+  - beginString: filemd5
+  - beginString: fileset
+  - beginString: filesha1
+  - beginString: filesha256
+  - beginString: filesha512
+  - beginString: flatten
+  - beginString: floor
+  - beginString: format
+  - beginString: formatdate
+  - beginString: formatlist
+  - beginString: indent
+  - beginString: index
+  - beginString: join
+  - beginString: jsondecode
+  - beginString: jsonencode
+  - beginString: keys
+  - beginString: length
+  - beginString: list
+  - beginString: log
+  - beginString: lookup
+  - beginString: lower
+  - beginString: map
+  - beginString: matchkeys
+  - beginString: max
+  - beginString: md5
+  - beginString: merge
+  - beginString: min
+  - beginString: nonsensitive
+  - beginString: one
+  - beginString: parseint
+  - beginString: pathexpand
+  - beginString: pow
+  - beginString: range
+  - beginString: regex
+  - beginString: regexall
+  - beginString: replace
+  - beginString: reverse
+  - beginString: rsadecrypt
+  - beginString: sensitive
+  - beginString: setintersection
+  - beginString: setproduct
+  - beginString: setsubtract
+  - beginString: setunion
+  - beginString: sha1
+  - beginString: sha256
+  - beginString: sha512
+  - beginString: signum
+  - beginString: slice
+  - beginString: sort
+  - beginString: split
+  - beginString: strrev
+  - beginString: substr
+  - beginString: sum
+  - beginString: templatefile
+  - beginString: textdecodebase64
+  - beginString: textencodebase64
+  - beginString: timeadd
+  - beginString: timestamp
+  - beginString: title
+  - beginString: tobool
+  - beginString: tolist
+  - beginString: tomap
+  - beginString: tonumber
+  - beginString: toset
+  - beginString: tostring
+  - beginString: transpose
+  - beginString: trim
+  - beginString: trimprefix
+  - beginString: trimspace
+  - beginString: trimsuffix
+  - beginString: try
+  - beginString: type
+  - beginString: upper
+  - beginString: urlencode
+  - beginString: uuid
+  - beginString: uuidv5
+  - beginString: values
+  - beginString: yamldecode
+  - beginString: yamlencode
+  - beginString: zipmap
+commentDelimiters:
+  beginDelimiter: /*
+  endDelimiter: "*/"
+  inlineDelimiter: "#"
+comments:
+  - beginString: //
+completions: []
+extensions:
+  - keyString: tf
+  - keyString: tfvars
+  - keyString: tfbackend
+filenames: []
+interpreters: []
+keywords:
+  - beginString: condition
+  - beginString: connection
+  - beginString: count
+  - beginString: data
+  - beginString: default
+  - beginString: depends_on
+  - beginString: dynamic
+  - beginString: error_message
+  - beginString: features
+  - beginString: for_each
+  - beginString: lifecycle
+  - beginString: module
+  - beginString: output
+  - beginString: provider
+  - beginString: provisioner
+  - beginString: resource
+  - beginString: validation
+  - beginString: variable
+metadata:
+  author: Daniel Meireles
+  description: Hashicorp's Terraform support for CoT Editor
+  distributionURL: https://coteditor.com
+  lastModified: "2022-06-01"
+  license: MIT
+  version: 0.0.1
+numbers:
+  - beginString: \b(\d+\.?\d*|\.\d+)(e[-+]\d+)?[dfm]?\b
+    ignoreCase: true
+    regularExpression: true
+outlineMenu: []
+strings:
+  - beginString: '"'
+    endString: '"'
+types:
+  - beginString: bool
+  - beginString: list
+  - beginString: map
+  - beginString: number
+  - beginString: string
+values:
+  - beginString: "false"
+  - beginString: "null"
+  - beginString: "true"
+variables:
+  - beginString: local
+  - beginString: var

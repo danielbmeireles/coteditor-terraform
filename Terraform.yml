@@ -124,7 +124,9 @@ commentDelimiters:
   endDelimiter: '*/'
   inlineDelimiter: '#'
 comments:
-- beginString: //
+- beginString: (// )
+  endString: $
+  regularExpression: true
 completions: []
 extensions:
 - keyString: tf
@@ -179,4 +181,6 @@ values:
 - beginString: 'true'
 variables:
 - beginString: local
+  regularExpression: false
 - beginString: var
+  regularExpression: false

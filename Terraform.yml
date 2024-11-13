@@ -154,6 +154,7 @@ keywords:
 - beginString: resource
 - beginString: validation
 - beginString: variable
+kind: code
 metadata:
   author: Daniel Meireles
   description: Hashicorp's Terraform support for CoT Editor
